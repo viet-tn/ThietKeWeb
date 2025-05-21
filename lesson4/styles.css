@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card {
+  height: 324px;
+  width: 296px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4F4F4;
+}
+
+.card_selected {
+  background-color: #FBF6EA;
+}
+
+.card_avatar img {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+  margin: 40px auto 20px;
+}
+
+.card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.card_body-2 {
+  font-size: 14px;
+  color: #6D6E76;
+  margin-bottom: 20px;
+}
+
+.card_socials {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
