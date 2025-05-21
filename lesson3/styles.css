@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  height: 324px;
+  width: 296px;
+  background-color: #FBF6EA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_avatar img {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+  margin: 40px auto 20px;
+}
+
+.container h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.container_body-2 {
+  font-size: 14px;
+  color: #6D6E76;
+  margin-bottom: 20px;
+}
+
+.container_socials {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
