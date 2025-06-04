@@ -1,0 +1,50 @@
+body {
+    background-color: aliceblue;
+    font-family: Nunito, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 4px 4px 0px 0px;
+    background-color: white;
+}
+
+table thead tr {
+  background-color: #01987a !important;
+  border: none;
+}
+
+th {
+  text-align: left;
+  color: white;
+}
+
+table tr {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  transition: 0.25s color;
+}
+
+tbody tr:first-child {
+    border-top: none;
+}
+
+tbody tr:last-child {
+    border-bottom: 2px solid #01987a;
+}
+
+th, td {
+  width: 60px;
+  max-width: 60px;
+  min-width: 60px;
+  padding: 4px 16px;
+  font-size: 12px;
+}
+
+tr:hover {
+  background-color: rgb(227, 227, 227);
+  color: #01987a;
+  font-weight: 600;
+}
